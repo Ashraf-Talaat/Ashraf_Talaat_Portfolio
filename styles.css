@@ -372,7 +372,7 @@ p {
 
 .profile-frame {
   width: 400px;
-  height: 500px;
+  height: auto;
   background: linear-gradient(
     135deg,
     var(--accent-primary),
@@ -1038,6 +1038,9 @@ p {
   .projects-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .profile-frame {
+    transform: none !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1088,6 +1091,10 @@ p {
     height: 30px;
     bottom: 20px;
     right: 20px;
+  }
+
+  .profile-frame {
+    max-width: 70%;
   }
 }
 
