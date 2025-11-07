@@ -771,7 +771,7 @@ const isHomePage =
   pathname.endsWith("index.html") ||
   pathname.toLowerCase().includes("index");
 
-const projectsToShow = isHomePage ? projectsData.slice(0, 3) : projectsData;
+const projectsToShow = isHomePage ? projectsData.slice(0, 6) : projectsData;
 
 projectsToShow.forEach((p) => {
   const card = document.createElement("div");
