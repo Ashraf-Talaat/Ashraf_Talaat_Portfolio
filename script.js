@@ -705,7 +705,15 @@ const projectsData = [
 
 const container = document.getElementById("projects-container");
 
-projectsData.forEach((p) => {
+const pathname = window.location.pathname;
+const isHomePage =
+  pathname === "/" ||
+  pathname.endsWith("index.html") ||
+  pathname.toLowerCase().includes("index");
+
+const projectsToShow = isHomePage ? projectsData.slice(0, 3) : projectsData;
+
+projectsToShow.forEach((p) => {
   const card = document.createElement("div");
   card.className = "work-card";
 
