@@ -699,6 +699,66 @@ const projectsData = [
     live: "https://react-todo-list-ashraf.netlify.app/",
     github: "https://github.com/Ashraf-Talaat/react_todo_app_tarmez",
   },
+  {
+    id: "egg-bird",
+    title: "Egg Catcher_Bird Shooter ",
+    image: "./images/egg-bird.png",
+    description:
+      "Built two interactive browser games — Egg Catcher and Bird Shooter — using HTML, CSS, and JavaScript, featuring smooth animations, responsive design, and engaging gameplay.",
+    technologies: ["HTML5", "CSS3", "JavaScript (ES6)"],
+    live: "https://ashraf-talaat.github.io/simple_games_ITI/",
+    github: "https://github.com/Ashraf-Talaat/simple_games_ITI",
+  },
+  {
+    id: "bootstrap-template",
+    title: "Bootstrap Template",
+    image: "./images/bootstrap.png",
+    description:
+      "Developed a responsive Bootstrap landing page template with a clean design and customizable sections.",
+    technologies: ["HTML5", "CSS3", "Bootstrap"],
+    live: "https://ashraf-talaat.github.io/Bootstrap_Template_ITI/",
+    github: "https://github.com/Ashraf-Talaat/Bootstrap_Template_ITI",
+  },
+  {
+    id: "ui-page",
+    title: "UI Page",
+    image: "./images/ui page.png",
+    description:
+      "Built a fully responsive landing page using pure HTML and CSS, featuring custom animations and modern visual effects.",
+    technologies: ["HTML5", "CSS3"],
+    live: "https://ashraf-talaat.github.io/UI_Page_Elzero/",
+    github: "https://github.com/Ashraf-Talaat/UI_Page_Elzero",
+  },
+  {
+    id: "dashboard",
+    title: "Dashboard",
+    image: "./images/dashboard.png",
+    description:
+      "Built a fully responsive dashboard using pure HTML and CSS, featuring custom animations, interactive elements, and a creative UI design.",
+    technologies: ["HTML5", "CSS3"],
+    live: "https://ashraf-talaat.github.io/Dashboard_Elzero/",
+    github: "https://github.com/Ashraf-Talaat/Dashboard_Elzero",
+  },
+  {
+    id: "fruits-shop",
+    title: "Fruits Shop",
+    image: "./images/fruits shop.png",
+    description:
+      "Built a modern and responsive Fruits Shop landing page using HTML, CSS, and Font Awesome icons, featuring clean design and smooth visual effects.",
+    technologies: ["HTML5", "CSS3", "Font Awesome icons"],
+    live: "https://ashraf-talaat.github.io/Fruits-Shop_ITI/",
+    github: "https://github.com/Ashraf-Talaat/Fruits-Shop_ITI",
+  },
+  {
+    id: "omnifood",
+    title: "OmniFood",
+    image: "./images/omnifood.png",
+    description:
+      "Developed a responsive restaurant landing page (OmniFood) with HTML and CSS, showcasing elegant design, intuitive layout, and subtle animations.",
+    technologies: ["HTML5", "CSS3"],
+    live: "https://ashraf-talaat.github.io/OmniFood_ITI/",
+    github: "https://github.com/Ashraf-Talaat/OmniFood_ITI",
+  },
 ];
 
 // ********* display project section ***********
