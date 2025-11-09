@@ -710,6 +710,16 @@ const projectsData = [
     github: "https://github.com/Ashraf-Talaat/simple_games_ITI",
   },
   {
+    id: "weather-tarmez",
+    title: "Simple Weather App",
+    image: "./images/weather-tarmez.png",
+    description:
+      "simple and interactive web application that allows users to check the weather for cairo in Egypt. Use the OpenWeatherMap API to fetch live data.",
+    technologies: ["React.js", "Material UI", "API", "i18next", "Moment.js"],
+    live: "https://weather-app-ashraf.netlify.app/",
+    github: "https://github.com/Ashraf-Talaat/weather_app_tarmez",
+  },
+  {
     id: "bootstrap-template",
     title: "Bootstrap Template",
     image: "./images/bootstrap.png",
